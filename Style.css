@@ -639,7 +639,7 @@ html {
 }
 
 @media (max-width: 768px) {
-  .CordinatorMain {
+  #CordinatorMain {
     width: 100vw;
     margin-left: 40px;
   }
@@ -765,9 +765,9 @@ html {
   padding: 20px;
 }
 @media (max-width: 486px) {
-  .RulesMain {
+  #RulesMain {
     width: 510px;
-
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -852,7 +852,7 @@ html {
   margin-right: 20%;
   height: 615px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 .Item3 {
   overflow: hidden;
@@ -930,7 +930,7 @@ html {
   line-height: 30.58px;
 }
 @media (max-width: 768px) {
-  .LastPageSection {
+  #LastPageSection {
     height: 250vh;
   }
   .LastSectionHeading {
@@ -946,10 +946,12 @@ html {
   }
   .Item2 {
     width: 410px;
-    flex-direction: column-reverse;
+    height: 677px;
+    flex-direction: column;
   }
   .Item3 {
     width: 410px;
+    height: 677px;
     flex-direction: column;
   }
   .img1 {
@@ -967,6 +969,8 @@ html {
   .info {
     width: 410px;
     height: 338px;
+    padding: 10px;
+    padding-right: 30px;
   }
   .img2 {
     width: 410px;
@@ -991,7 +995,7 @@ html {
     font-size: 20px;
     width: 405px;
     line-height: 14px;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .Container {
     margin-left: 15%;

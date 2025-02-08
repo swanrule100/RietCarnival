@@ -52,6 +52,14 @@ html {
 .Register:hover {
   opacity: 0.9;
 }
+@media (max-width: 320px) {
+  .zone {
+    margin-left: 70px;
+  }
+  .Header {
+    margin-left: 10%;
+  }
+}
 
 @media (max-width: 486px) {
   .Header {
@@ -211,6 +219,11 @@ html {
     text-align: center;
   }
 }
+@media (max-width: 320px) {
+  .Land1 {
+    margin-left: 70px;
+  }
+}
 
 /* secondPage */
 .MainSecondPage {
@@ -257,7 +270,6 @@ html {
 .upSide > h5 {
   position: fixed;
   width: 1000%;
-
   right: 110%;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -320,7 +332,13 @@ html {
 .Section1Right > h3 > span {
   color: #f65200;
 }
-
+@media (max-width: 320px) {
+  .Main1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 486px) {
   .MainSecondPage {
     height: 100vh;
@@ -333,9 +351,6 @@ html {
   .upSide {
     height: 50vh;
   }
-  /* .downSide {
-      height: 26px;
-    } */
 
   .logo {
     top: 9%;
@@ -412,6 +427,13 @@ html {
   text-transform: uppercase;
   font-family: "Alexandria", serif;
 }
+
+@media (max-width: 320px) {
+  .mainChil1 {
+    margin-left: 50px;
+  }
+}
+
 @media (max-width: 486px) {
   .MainChill {
     margin-left: 52px;
@@ -512,10 +534,28 @@ html {
 .ItemListRight > a:hover {
   text-decoration: underline #f65200;
 }
+@media (max-width: 320px) {
+  .IteM1 {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .ItemListRight1 {
+    height: 10%;
+    width: 700px;
+  }
+  .ItemListRight1 > .ItemListRight > a {
+    width: 350px;
+  }
+  .u1 > .upSideItem > h5 {
+    right: 30%;
+    top: 8%;
+  }
+}
 @media (max-width: 486px) {
   .ItemList {
     gap: 20px;
     margin-left: 40px;
+    margin-top: 100px;
   }
   .ItemListRight {
     margin-top: -50%;
@@ -526,13 +566,15 @@ html {
   }
   .ItemListLeft {
     margin-top: -20%;
-    height: 70vh;
+    height: 90vh;
   }
   .downSide > h5 {
     margin-top: 100%;
   }
   .upSideItem > h5 {
     right: 80%;
+    right: 30%;
+    top: 8%;
   }
 }
 
@@ -636,6 +678,13 @@ html {
   height: 243.91px;
   overflow: hidden;
   object-fit: cover;
+}
+
+@media (max-width: 320px) {
+  .Cordinate1 {
+    margin-left: 70px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 768px) {
